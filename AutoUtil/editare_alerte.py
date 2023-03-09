@@ -27,6 +27,7 @@ class Editare():
 
 
 
+
     #ITP
 
         reinoieste_itp = driver.find_elements(By.XPATH, "/html//div[@id='__next']//img").__getitem__(5).click()
